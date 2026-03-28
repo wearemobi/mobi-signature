@@ -5,24 +5,56 @@ Establish the minimalist technical foundation for M.O.B.I.™ web projects using
 
 ## Implementation Plan
 - [x] This issue is the trigger for a **New SPEC**.
-- [ ] Target Directory: `docs/`
-- [ ] Target Filename: `docs/SPEC-v1.0.md`
+- [x] Target Directory: `docs/`
+- [x] Target Filename: `docs/SPEC-v1.0.md`
 
 ### Technical Stack (The Essentials)
-- Framework: Next.js 15+ (App Router).
-- Language: TypeScript (Strict).
+- Framework: Next.js 16+ (App Router).
+- Language: TypeScript5 (Strict).
 - Styling: Tailwind CSS v4.
 
 ###  Folder Architecture (Minimalist Latest)
 - Following the latest Next.js defaults with a clean src layout
 
+### `package.json`
+```json
+{
+  "name": "mobi-signature",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "next": "16.2.1",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
+
+```
+
 ## Acceptance Criteria (Definition of Done)
-- [ ] Project initializes with zero console errors/warnings.
-- [ ] Folder structure follows the minimalist src pattern.
-- [ ] Tailwind v4 styles are correctly injected into the global CSS.
-- [ ] Build process completes successfully in less than 60 seconds.
-- [ ] All stakeholders (or R&D) have reviewed the draft.
-- [ ] The document is merged into the `main` branch under the `docs/` folder.
+- [x] Project initializes with zero console errors/warnings.
+- [x] Folder structure follows the minimalist src pattern.
+- [x] Tailwind v4 styles are correctly injected into the global CSS.
+- [x] Build process completes successfully in less than 60 seconds.
+- [x] All stakeholders (or R&D) have reviewed the draft.
+- [x] The document is merged into the `main` branch under the `docs/` folder.
 
 ---
 Copyright © 2026 **M.O.B.I.™** (Machine Oriented Brilliant Ideas™)  
