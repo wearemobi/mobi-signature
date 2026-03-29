@@ -9,13 +9,17 @@ This is critical for displaying professional summaries and service lists with pr
 - [x] This issue is the trigger for a **New SPEC**.
 - [x] Target Directory: `docs/`
 - [x] Target Filename: `docs/SPEC-v1.2.md`
-- [ ] Library Selection: Integrate marked (lightweight, zero-dependency parser).
-- [ ] Component Creation: Build a `MarkdownBlock.tsx` wrapper that applies Tailwind v4 typography resets.
-- [ ] B&W Styling: Force all rendered elements (h3, p, li, strong) to follow the `#000` on `#FFF` constraint.
+- [x] Library Selection: Integrate marked (lightweight, zero-dependency parser).
+- [x] Component Creation: Build a `MarkdownBlock.tsx` wrapper that applies Tailwind v4 typography resets.
+- [x] B&W Styling: Force all rendered elements (h3, p, li, strong) to follow the `#000` on `#FFF` constraint.
 
 ## Acceptance Criteria (Definition of Done)
-- [ ] All stakeholders (or R&D) have reviewed the draft.
-- [ ] The document is merged into the `main` branch under the `docs/` folder.
+- [x] All stakeholders (or R&D) have reviewed the draft.
+- [x] The document is merged into the `main` branch under the `docs/` folder.
+- [x] Header renders as a bold, uppercase sub-headline.
+- [x] Unordered lists (- item) render with clean, black bullet points.
+- [x] Bold text (**text**) uses the Geist-Bold weight correctly.
+- [x] The engine correctly parses the about and content fields from johndoe.json.
 
 ---
 Copyright © 2026 **M.O.B.I.™** (Machine Oriented Brilliant Ideas™)  
