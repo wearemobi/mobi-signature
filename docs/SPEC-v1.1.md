@@ -7,15 +7,15 @@ Implement the core visual identity defined in SPEC v1.0. This issue establishes 
 - [x] This issue is the trigger for a **New SPEC**.
 - [x] Target Directory: `docs/`
 - [x] Target Filename: `docs/SPEC-v1.1.md`
-- [ ] **CSS Variables:** Configure `globals.css` using Tailwind v4 syntax.
-- [ ] **Typography:** Integrate `next/font` with Geist or Inter for a premium feel.
-- [ ] **Clean Slate:** Remove all default Next.js 16 boilerplate styles.
+- [x] **CSS Variables:** Configure `globals.css` using Tailwind v4 syntax.
+- [x] **Typography:** Integrate `next/font` with Geist or Inter for a premium feel.
+- [x] **Clean Slate:** Remove all default Next.js 16 boilerplate styles.
 
 ## Acceptance Criteria (Definition of Done)
-- [ ] The app renders pure `#000000` text on a pure `#FFFFFF` background.
-- [ ] No grayscale or secondary colors are present.
-- [ ] All stakeholders (or R&D) have reviewed the draft.
-- [ ] The document is merged into the `main` branch under the `docs/` folder.
+- [x] The app renders pure `#000000` text on a pure `#FFFFFF` background.
+- [x] No grayscale or secondary colors are present.
+- [x] All stakeholders (or R&D) have reviewed the draft.
+- [x] The document is merged into the `main` branch under the `docs/` folder.
 
 ---
 Copyright © 2026 **M.O.B.I.™** (Machine Oriented Brilliant Ideas™)  
