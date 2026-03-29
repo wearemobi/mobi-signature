@@ -48,8 +48,7 @@ export default function ShareSection({ name, role }: ShareProps) {
 
             <button
                 onClick={handleShare}
-                className={`
-          px-8 py-4 rounded-full font-bold uppercase tracking-[0.2em] text-xs transition-all duration-300
+                className={`no-print px-8 py-4 rounded-full font-bold uppercase tracking-[0.2em] text-xs transition-all duration-300
           ${copied
                     ? 'bg-green-500 text-white scale-95'
                     : 'bg-black text-white hover:bg-zinc-800 active:scale-95 shadow-lg'}
