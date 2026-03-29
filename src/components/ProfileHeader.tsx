@@ -10,7 +10,7 @@ export default function ProfileHeader({ name, headline, avatarUrl }: ProfileHead
     return (
         <header className="flex flex-col items-center text-center py-12 px-6">
             {avatarUrl && (
-                <div className="relative w-32 h-32 mb-6 grayscale border-2 border-gray-100 rounded-full overflow-hidden">
+                <div className="relative w-32 h-32 mb-6 grayscale border border-black-100 rounded-full overflow-hidden">
                     <Image
                         src={avatarUrl}
                         alt={name}
