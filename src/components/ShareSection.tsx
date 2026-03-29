@@ -2,7 +2,6 @@
 
 import { QRCodeSVG } from 'qrcode.react';
 import { useEffect, useState } from 'react';
-import {metadata} from "@/app/layout";
 
 interface ShareProps {
     name: string;
