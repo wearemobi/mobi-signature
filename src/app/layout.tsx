@@ -11,6 +11,10 @@ const geistSans = Geist({
 export const metadata: Metadata = {
     title: "MOBI Signature v1.0",
     description: "Professional Identity by M.O.B.I.™",
+    icons: {
+        icon: [{ url: '/icon-light.svg', type: 'image/svg+xml' }],
+        apple: [{ url: '/icon-light.svg', type: 'image/svg+xml' }]
+    },
 };
 
 export default function RootLayout({children}: {
