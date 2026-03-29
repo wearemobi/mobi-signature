@@ -30,7 +30,7 @@ export default function Home() {
             {/* Footer M.O.B.I.™ */}
             <footer className="mt-20 px-6 text-center">
                 <div className="border-t border-black">
-                    <ShareSection name={signature.name} role={signature.headline} />
+                    <ShareSection name={signature.name} role={signature.headline} shareTitle={signature.shareTitle} shareText={signature.shareText} />
                     <div className="text-[10px] text-zinc-400 uppercase tracking-[0.2em] font-medium  pt-6">
                         Powered by M.O.B.I.™ · Signature Engine v1.4
                     </div>

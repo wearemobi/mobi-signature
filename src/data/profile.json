@@ -2,7 +2,9 @@
   "signature": {
     "name": "John Doe",
     "headline": "MOBI Pioneer | Software Architect",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/255429304?s=200&v=4"
+    "avatarUrl": "https://avatars.githubusercontent.com/u/255429304?s=200&v=4",
+    "shareTitle": "Digital Signature",
+    "shareText": "Check out the professional identity of"
   },
   "about": "### Professional Summary\nPassionate creator building **minimalist digital identities**. Specialized in high-performance architectures and laser-focused user experiences.",
   "content": "### Core Services\n- **Project M.O.B.I.™ Implementation**\n- **Agentic Java Solutions**\n- **Digital Signature Strategy**"
