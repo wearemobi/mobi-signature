@@ -2,6 +2,8 @@ import ProfileHeader from "@/components/ProfileHeader";
 import MarkdownBlock from "@/components/MarkdownBlock";
 import profileData from "@/data/profile.json";
 
+import ShareSection from "@/components/ShareSection";
+
 export default function Home() {
     const { signature, about, content } = profileData;
 
@@ -13,7 +15,6 @@ export default function Home() {
                 headline={signature.headline}
                 avatarUrl={signature.avatarUrl}
             />
-
             <article className="px-6 space-y-12 mt-12">
                 {/* M2.2: About Section */}
                 <section>
@@ -28,9 +29,12 @@ export default function Home() {
 
             {/* Footer M.O.B.I.™ */}
             <footer className="mt-20 px-6 text-center">
-                <p className="text-[10px] uppercase tracking-[0.2em] font-bold border-t border-black pt-4">
-                    Powered by M.O.B.I.™ · Signature Engine v1.0
-                </p>
+                <div className="border-t border-black">
+                    <ShareSection name={signature.name} role={signature.headline} />
+                    <div className="text-[10px] text-zinc-400 uppercase tracking-[0.2em] font-medium  pt-6">
+                        Powered by M.O.B.I.™ · Signature Engine v1.4
+                    </div>
+                </div>
             </footer>
         </main>
     );
