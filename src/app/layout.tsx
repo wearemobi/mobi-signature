@@ -2,6 +2,7 @@ import React from "react";
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import "./globals.css";
+import Analytics from "@/components/Analytics";
 
 const geistSans = Geist({
     subsets: ["latin"],
@@ -25,6 +26,7 @@ export default function RootLayout({children}: {
         <body className={`${geistSans.variable} font-sans min-h-screen selection:bg-black selection:text-white`}>
         {children}
         </body>
+        <Analytics />
         </html>
     );
 }
