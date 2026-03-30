@@ -38,7 +38,7 @@ export default function Home() {
                         shareText={signature.shareText}
                     />
                     <div className="text-[10px] text-zinc-400 uppercase tracking-[0.2em] font-medium pt-4">
-                        Powered by M.O.B.I.™ · Signature Engine v1.6
+                        Powered by M.O.B.I.™ · Signature Engine v1.7
                     </div>
                 </div>
             </footer>
