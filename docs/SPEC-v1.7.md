@@ -7,16 +7,15 @@ Extend the "Print Engine" to support a physical networking format. The goal is t
 - **Format:** Force `@page { size: 3.5in 2in; margin: 0; }`.
 - **CSS Trigger:** Use a global class `.print-card-mode` on `body` to toggle between "Full Profile" and "Card" view.
 - **Content Filtering:** Only display: Avatar, Name, Headline, and QR Code. Hide bio, buttons, and social links.
-- **Analytics:** Register a custom GA4 event `profile_card_print`.
 
 ## Implementation Plan
 - [x] This issue is the trigger for a **New SPEC**.
-- [ ] Target Directory: `docs/`
-- [ ] Target Filename: `docs/SPEC-v1.0.md`
+- [x] Target Directory: `docs/`
+- [x] Target Filename: `docs/SPEC-v1.0.md`
 
 ## Acceptance Criteria (Definition of Done)
-- [ ] All stakeholders (or R&D) have reviewed the draft.
-- [ ] The document is merged into the `main` branch under the `docs/` folder.
+- [x] All stakeholders (or R&D) have reviewed the draft.
+- [x] The document is merged into the `main` branch under the `docs/` folder.
 
 ---
 Copyright © 2026 **M.O.B.I.™** (Machine Oriented Brilliant Ideas™)  
