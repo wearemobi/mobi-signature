@@ -25,8 +25,8 @@ export default function RootLayout({children}: {
         <html lang="en" className={`${geistSans.variable}`}>
         <body className={`${geistSans.variable} font-sans min-h-screen selection:bg-black selection:text-white`}>
         {children}
-        </body>
         <Analytics />
+        </body>
         </html>
     );
 }
