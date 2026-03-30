@@ -2,7 +2,7 @@ import Script from 'next/script'
 
 export default function Analytics() {
     return (
-        <div>
+        <>
             {/* Google Analytics Radar v1.6 */}
             <Script
                 src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
@@ -16,6 +16,6 @@ export default function Analytics() {
                   gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');
                 `}
             </Script>
-        </div>
+        </>
     )
 }
