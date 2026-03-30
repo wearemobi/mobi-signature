@@ -20,10 +20,10 @@ Enable data-driven decision-making by integrating **Google Analytics (GA4)**. Th
 
 ## Acceptance Criteria (Definition of Done)
 - [ ] GA4 property created in Google Analytics console.
-- [ ] Tracking script active and verified in Realtime Reports.
-- [ ] No interference with `@media print` styles.
-- [ ] All stakeholders (or R&D) have reviewed the draft.
-- [ ] The document is merged into the `main` branch under the `docs/` folder.
+- [x] Tracking script active and verified in Realtime Reports.
+- [x] No interference with `@media print` styles.
+- [x] All stakeholders (or R&D) have reviewed the draft.
+- [x] The document is merged into the `main` branch under the `docs/` folder.
 
 ---
 Copyright © 2026 **M.O.B.I.™** (Machine Oriented Brilliant Ideas™)  
