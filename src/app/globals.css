@@ -22,37 +22,31 @@ body {
 }
 
 @media print {
-    /* 1. Global Page Setup: No headers, no footers, no URLs */
     @page {
         size: auto;
         margin: 0;
     }
 
-    /* 2. Body Calibration: Centering the soul of the ship */
     body {
         background: white !important;
         color: black !important;
-        /* Ponemos el margen aquí para que el contenido no toque el borde del papel */
         margin: 1.5cm !important;
         padding: 0 !important;
         width: auto !important;
         height: auto !important;
-        /* Un pequeño ajuste de escala asegura que todo entre en una página */
         transform: scale(0.96);
         transform-origin: top center;
         -webkit-print-color-adjust: exact !important;
         print-color-adjust: exact !important;
     }
 
-    /* 3. Tactical Exclusion: Hiding the interactive bits */
     button,
     .no-print,
-    .share-button-text, /* Target specific UI text if needed */
+    .share-button-text,
     nav {
         display: none !important;
     }
 
-    /* 4. QR Engine Alignment: Centered and crisp */
     canvas, svg {
         display: block !important;
         max-width: 140px !important; /* Tamaño perfecto para tarjetas/perfiles */
@@ -60,16 +54,55 @@ body {
         page-break-inside: avoid;
     }
 
-    /* 5. Structural Integrity: Preventing awkward page breaks */
     section, article, header, footer {
         page-break-inside: avoid;
         margin-bottom: 1rem !important;
     }
 
-    /* Keep the "Powered by" but make it look like a watermark */
     footer {
         border-top: 1px solid #eee !important;
         padding-top: 1rem !important;
-        opacity: 0.6;
     }
 }
+@media print {
+    @page { size: auto; margin: 0; }
+
+    body.print-card-mode nav,
+    body.print-card-mode article,
+    body.print-card-mode section,
+    body.print-card-mode hr,
+    body.print-card-mode .no-print {
+        display: none !important;
+    }
+    body.print-card-mode header img {
+        display: block !important;
+    }
+
+    body.print-card-mode h1 {
+        display: block !important;
+        font-size: 14pt !important;
+        font-weight: bold !important;
+        text-align: center !important;
+        margin: 5pt 0 0 0 !important;
+        color: black !important;
+    }
+
+    body.print-card-mode header p {
+        display: block !important;
+        font-size: 7pt !important;
+        text-align: center !important;
+        text-transform: uppercase !important;
+        letter-spacing: 0.1em !important;
+        margin: 2pt 0 0 0 !important;
+        color: #333 !important;
+    }
+
+    body.print-card-mode #qr-card-area {
+        margin: 0 auto !important;
+    }
+
+    footer {
+        border-top: none !important;
+    }
+}
+
