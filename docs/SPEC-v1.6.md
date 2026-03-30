@@ -19,7 +19,7 @@ Enable data-driven decision-making by integrating **Google Analytics (GA4)**. Th
 - [x] Target Filename: `docs/SPEC-v1.6.md`
 
 ## Acceptance Criteria (Definition of Done)
-- [ ] GA4 property created in Google Analytics console.
+- [x] GA4 property created in Google Analytics console.
 - [x] Tracking script active and verified in Realtime Reports.
 - [x] No interference with `@media print` styles.
 - [x] All stakeholders (or R&D) have reviewed the draft.
