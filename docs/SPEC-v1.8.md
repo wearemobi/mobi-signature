@@ -9,13 +9,13 @@ Consolidate the Signature Engine as a stable, production-grade product (v1.x). T
 - [x] Target Filename: `docs/SPEC-v1.8.md`
 
 ## Acceptance Criteria (Definition of Done)
-- [ ] All stakeholders (or R&D) have reviewed the draft.
-- [ ] The document is merged into the `main` branch under the `docs/` folder.
-- [ ] Code Sanitization: Global execution of npm run lint and prettier. Removal of all "debug" logs, obsolete "TODO" comments, and dev-only notes in ShareSection.tsx and globals.css.
-- [ ] Branding Integration: Functional link to [wearemobi.com](https://wearemobi.com/) added to the footer with target="_blank" and rel="noopener noreferrer".
-- [ ] Release Management: Creation of the formal GitHub Tag v1.0.0 and an updated CHANGELOG.md.
-- [ ] Cloning Validation: Successful deployment of the first private pilot clone (signature-*) synced via upstream.
-- [ ] Print Integrity: Confirmed high-contrast output for QR and identity on laser printers (HP M111w).
+- [x] All stakeholders (or R&D) have reviewed the draft.
+- [x] The document is merged into the `main` branch under the `docs/` folder.
+- [x] Code Sanitization: Global execution of npm run lint and prettier. Removal of all "debug" logs, obsolete "TODO" comments, and dev-only notes in ShareSection.tsx and globals.css.
+- [x] Branding Integration: Functional link to [wearemobi.com](https://wearemobi.com/) added to the footer with target="_blank" and rel="noopener noreferrer".
+- [x] Release Management: Creation of the formal GitHub Tag v1.8.0 and an updated CHANGELOG.md.
+- [x] Cloning Validation: Successful deployment of the first private pilot clone (signature-*) synced via upstream.
+- [x] Print Integrity: Confirmed high-contrast output for QR and identity on laser printers (HP M111w).
 
 ---
 Copyright © 2026 **M.O.B.I.™** (Machine Oriented Brilliant Ideas™)  
