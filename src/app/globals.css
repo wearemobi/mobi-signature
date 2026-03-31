@@ -21,6 +21,13 @@ body {
     transition: none !important;
 }
 
+@media screen {
+    body #qr-card-area {
+        display: block !important;
+        margin-top: 100px;
+    }
+}
+
 @media print {
     @page {
         size: auto;
@@ -30,12 +37,9 @@ body {
     body {
         background: white !important;
         color: black !important;
-        margin: 1.5cm !important;
         padding: 0 !important;
         width: auto !important;
         height: auto !important;
-        transform: scale(0.96);
-        transform-origin: top center;
         -webkit-print-color-adjust: exact !important;
         print-color-adjust: exact !important;
     }
@@ -48,34 +52,19 @@ body {
     }
 
     canvas, svg {
-        display: block !important;
-        max-width: 140px !important; /* Tamaño perfecto para tarjetas/perfiles */
-        margin: 1.5rem auto !important;
+        width: 100px !important;
+        height: 100px !important;
         page-break-inside: avoid;
     }
 
     section, article, header, footer {
         page-break-inside: avoid;
-        margin-bottom: 1rem !important;
     }
-
-    footer {
-        border-top: 1px solid #eee !important;
-        padding-top: 1rem !important;
-    }
-}
-@media print {
-    @page { size: auto; margin: 0; }
 
     body.print-card-mode nav,
     body.print-card-mode article,
-    body.print-card-mode section,
-    body.print-card-mode hr,
-    body.print-card-mode .no-print {
+    body.print-card-mode section {
         display: none !important;
-    }
-    body.print-card-mode header img {
-        display: block !important;
     }
 
     body.print-card-mode h1 {
@@ -97,12 +86,8 @@ body {
         color: #333 !important;
     }
 
-    body.print-card-mode #qr-card-area {
-        margin: 0 auto !important;
-    }
-
-    footer {
-        border-top: none !important;
+    body.print-card-mode #avatar {
+        display: none !important;
     }
 }
 
