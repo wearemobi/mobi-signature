@@ -1,4 +1,4 @@
-# <img src="[https://wearemobi.com/icon-light.svg](https://wearemobi.com/icon-light.svg)" width="24" height="24" valign="middle"\> mobi-signature
+# <img src="https://wearemobi.com/icon-light.svg" width="24" height="24" valign="middle"> M.O.B.I.™ · Signature v1.8
 
 Professional digital identity engine for high-performance networking. Built with Next.js 16, Tailwind 4, and M.O.B.I.™ architecture.
 
