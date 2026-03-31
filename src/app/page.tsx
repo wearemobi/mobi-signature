@@ -37,8 +37,18 @@ export default function Home() {
                         shareTitle={signature.shareTitle}
                         shareText={signature.shareText}
                     />
+                    {/* M.O.B.I. Branding Link */}
                     <div className="text-[10px] text-zinc-400 uppercase tracking-[0.2em] font-medium pt-4">
-                        Powered by M.O.B.I.™ · Signature Engine v1.7
+                        <a
+                            href="https://wearemobi.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-black transition-colors duration-300"
+                        >
+                            Powered by M.O.B.I.™
+                        </a>
+                        <span className="mx-2">·</span>
+                        Signature Engine v1.8
                     </div>
                 </div>
             </footer>
