@@ -15,7 +15,10 @@ export default function ShareSection({ name, role, shareTitle, shareText }: Shar
     const [copied, setCopied] = useState(false);
 
     useEffect(() => {
-        setUrl(window.location.href);
+        const currentUrl = window.location.href;
+        Promise.resolve().then(() => {
+            setUrl(currentUrl);
+        });
     }, []);
 
     const shareData = {
