@@ -1,11 +1,12 @@
 {
   "signature": {
-    "name": "John Doe",
-    "headline": "MOBI Pioneer | Software Architect",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/255429304?s=200&v=4",
-    "shareTitle": "Digital Signature",
-    "shareText": "Check out the professional identity of"
+    "name": "M.O.B.I.™ Signature",
+    "headline": "Professional Digital Identity Engine",
+    "avatarUrl": "https://wearemobi.com/icon-light.svg",
+    "username": "mobi",
+    "shareTitle": "M.O.B.I.™ · Digital Identity",
+    "shareText": "Check out the professional identity engine by M.O.B.I.™"
   },
-  "about": "### Professional Summary\nPassionate creator building **minimalist digital identities**. Specialized in high-performance architectures and laser-focused user experiences.",
-  "content": "### Core Services\n- **Project M.O.B.I.™ Implementation**\n- **Agentic Java Solutions**\n- **Digital Signature Strategy**"
+  "about": "# Your Identity, Refined.\n\nM.O.B.I. Signature is a high-performance, minimalist digital identity engine designed for high-impact networking. Built on Next.js 16 and Tailwind 4, it provides a radical Black & White experience optimized for both web and professional laser printing.",
+  "content": "## Get Your Own Signature\n\nLooking for a professional, high-impact digital identity like this one? We specialize in transforming your professional presence into a high-performance tool.\n\n### Why M.O.B.I.™ Signature?\n- **Radical Readability:** Optimized for high-contrast environments.\n- **Print-Ready:** Perfect for QR-based physical networking.\n- **Agentic Ready:** Built on the latest technical foundations.\n\n---\n\n### 🚀 Ready to launch?\nIf you want your own `.mobi.bio` signature, contact us today and let's build your professional flagship.\n\n**[Contact M.O.B.I.™ Signature](mailto:contact@wearemobi.com)**"
 }
