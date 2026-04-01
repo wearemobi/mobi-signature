@@ -10,7 +10,7 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-    title: "MOBI Signature v1.3",
+    title: "M.O.B.I.™ Signature",
     description: "Professional Identity by M.O.B.I.™",
     icons: {
         icon: [{ url: '/icon-light.svg', type: 'image/svg+xml' }],
